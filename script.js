@@ -5,6 +5,7 @@
 
 (() => {
   "use strict";
+   const WEB3FORMS_ACCESS_KEY = "5bd4bbc4-4593-462e-aa30-627f56445f3d"
 
   const CART_KEY = "glownest-demo-cart-v1";
   const ORDER_KEY = "glownest-demo-last-order-v1";
