@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Order Confirmed | GlowNest</title>
+  <meta
+    name="description"
+    content="Your GlowNest demo order confirmation."
+  >
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#f8f5ef">
+
+  <!-- Favicon -->
+  <link
+    rel="icon"
+    href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='32' fill='%23dce8dc'/%3E%3Ctext x='32' y='43' font-size='34' font-family='Georgia,serif' font-weight='700' text-anchor='middle' fill='%23355b49'%3EG%3C/text%3E%3C/svg%3E"
+  >
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;600;700&family=Playfair+Display:wght@600;700&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="style.css?v=2">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <div class="announcement">
+    Thank you for visiting GlowNest ✨
+  </div>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html" aria-label="GlowNest homepage">
+        <span class="brand-mark" aria-hidden="true">G</span>
+        <span>GlowNest</span>
+      </a>
+
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-label="Toggle navigation menu"
+        aria-controls="primary-nav"
+        aria-expanded="false"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="nav-links" id="primary-nav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="index.html#shop">Shop</a>
+        <a href="index.html#about">About</a>
+        <a class="shop-cart-link" href="cart.html">
+          Cart (<span data-cart-count>0</span>)
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="section">
+    <section class="success-panel" data-order-success>
+      <div class="success-icon" aria-hidden="true">✓</div>
+
+      <p class="eyebrow">ORDER COMPLETE</p>
+
+      <h1>Thank You, <span data-customer-name>Customer</span>!</h1>
+
+      <p class="success-message">
+        Your demo order has been placed successfully. We're delighted
+        that you explored GlowNest!
+      </p>
+
+      <div class="order-details">
+        <div class="order-detail-row">
+          <span>Demo Order Number</span>
+          <strong data-order-number>GN-DEMO</strong>
+        </div>
+
+        <div class="order-detail-row">
+          <span>Order Total</span>
+          <strong data-order-total>Rs. 0</strong>
+        </div>
+
+        <div class="order-detail-row">
+          <span>Payment Status</span>
+          <strong>Demo Only — No Payment</strong>
+        </div>
+      </div>
+
+      <p class="success-note">
+        This is a fictional practice store. No real purchase was made,
+        no payment was collected, and no products will be shipped.
+      </p>
+
+      <div class="success-actions">
+        <a class="button button-primary" href="index.html#shop">
+          Continue Shopping
+        </a>
+
+        <a class="button button-secondary" href="index.html">
+          Back to Home
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-content">
+      <a class="brand footer-brand" href="index.html">
+        <span class="brand-mark" aria-hidden="true">G</span>
+        <span>GlowNest</span>
+      </a>
+
+      <p>Simple skincare. Everyday confidence.</p>
+
+      <p class="footer-small">
+        © 2026 GlowNest. A fictional practice store created for learning.
+      </p>
+    </div>
+  </footer>
+</body>
+</html>

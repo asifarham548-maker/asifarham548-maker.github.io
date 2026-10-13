@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>GlowNest | Skincare Essentials in Pakistan</title>
+  <meta
+    name="description"
+    content="Shop GlowNest skincare essentials in Pakistan: gentle face cleanser, hydration cream and daily sunscreen from Rs. 850. A fictional practice store."
+  >
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="theme-color" content="#f8f5ef">
+
+  <!-- Favicon -->
+  <link
+    rel="icon"
+    href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='32' fill='%23dce8dc'/%3E%3Ctext x='32' y='43' font-size='34' font-family='Georgia,serif' font-weight='700' text-anchor='middle' fill='%23355b49'%3EG%3C/text%3E%3C/svg%3E"
+  >
+
+  <!-- Open Graph / Twitter -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="GlowNest">
+  <meta property="og:locale" content="en_PK">
+  <meta property="og:title" content="GlowNest | Skincare Essentials in Pakistan">
+  <meta property="og:description" content="Simple skincare essentials for an easy everyday routine. Cleanser, moisturiser and sunscreen.">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?auto=format&fit=crop&w=1200&h=630&q=85">
+  <meta property="og:image:alt" content="Minimal skincare products in a calm neutral setting">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="GlowNest | Skincare Essentials in Pakistan">
+  <meta name="twitter:description" content="Simple skincare essentials for an easy everyday routine.">
+  <meta name="twitter:image" content="https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?auto=format&fit=crop&w=1200&h=630&q=85">
+
+  <!-- Structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "name": "GlowNest",
+        "description": "Skincare and beauty essentials store in Pakistan (fictional practice store).",
+        "areaServed": { "@type": "Country", "name": "Pakistan" }
+      },
+      {
+        "@type": "WebSite",
+        "name": "GlowNest",
+        "inLanguage": "en-PK"
+      },
+      {
+        "@type": "ItemList",
+        "name": "GlowNest everyday essentials",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Gentle Face Cleanser" },
+          { "@type": "ListItem", "position": 2, "name": "Daily Hydration Cream" },
+          { "@type": "ListItem", "position": 3, "name": "Daily Sunscreen" }
+        ]
+      }
+    ]
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;600;700&family=Playfair+Display:wght@600;700&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="style.css?v=2">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <!-- Announcement -->
+  <div class="announcement">
+    Your little reminder to care for yourself ✨
+  </div>
+
+  <!-- Header and navigation -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html" aria-label="GlowNest homepage">
+        <span class="brand-mark" aria-hidden="true">G</span>
+        <span>GlowNest</span>
+      </a>
+
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-label="Toggle navigation menu"
+        aria-controls="primary-nav"
+        aria-expanded="false"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="nav-links" id="primary-nav" aria-label="Main navigation">
+        <a href="index.html#home">Home</a>
+        <a href="index.html#shop">Shop</a>
+        <a href="index.html#about">About</a>
+        <a class="shop-cart-link" href="cart.html">
+          Cart (<span data-cart-count>0</span>)
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero section -->
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <div class="hero-copy">
+          <p class="eyebrow">YOUR SKINCARE, YOUR MOMENT</p>
+
+          <h1>Skincare Essentials in Pakistan:<br>A little care. A lovely glow.</h1>
+
+          <p>
+            Discover simple skincare essentials, including a gentle face
+            cleanser, hydrating cream and daily sunscreen, designed to make
+            your everyday routine feel special.
+          </p>
+
+          <div class="hero-actions">
+            <a class="button button-primary" href="index.html#shop">
+              Explore the Collection
+            </a>
+            <a class="button button-secondary" href="index.html#about">
+              Our Story
+            </a>
+          </div>
+
+          <div class="hero-note">
+            <span aria-hidden="true">✦</span>
+            Simple routines, feel-good moments.
+          </div>
+        </div>
+
+        <div class="hero-art">
+          <img
+            src="https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?auto=format&fit=crop&w=900&q=85"
+            srcset="
+              https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?auto=format&fit=crop&w=480&q=80 480w,
+              https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?auto=format&fit=crop&w=900&q=85 900w
+            "
+            sizes="(max-width: 800px) 100vw, 560px"
+            width="900"
+            height="475"
+            alt="Minimal skincare bottles and a jar arranged on a neutral background"
+            fetchpriority="high"
+          >
+          <div class="hero-badge">
+            <span>Glow</span>
+            <strong>Every Day</strong>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Trust strip -->
+    <section class="trust-strip" aria-label="GlowNest highlights">
+      <div>
+        <span class="trust-icon" aria-hidden="true">♡</span>
+        <strong>Everyday Self-Care</strong>
+        <p>Make time for yourself.</p>
+      </div>
+
+      <div>
+        <span class="trust-icon" aria-hidden="true">✧</span>
+        <strong>Simple Skincare</strong>
+        <p>Keep your routine easy.</p>
+      </div>
+
+      <div>
+        <span class="trust-icon" aria-hidden="true">☼</span>
+        <strong>Feel-Good Beauty</strong>
+        <p>A little glow, every day.</p>
+      </div>
+    </section>
+
+    <!-- Shop section -->
+    <section class="section" id="shop">
+      <div class="section-heading">
+        <p class="eyebrow">THE GLOWNEST COLLECTION</p>
+        <h2>Your Everyday Skincare Essentials</h2>
+        <p>
+          Meet your new skincare routine favourites. Choose a product
+          to learn more, or add it straight to your demo cart.
+        </p>
+      </div>
+
+      <div class="product-grid">
+        <!-- Product 1 -->
+        <article class="product-card" data-product-card>
+          <a
+            class="product-image"
+            href="gentle-face-cleanser.html"
+            aria-label="View Gentle Face Cleanser"
+          >
+            <span class="product-tag">EVERYDAY ESSENTIAL</span>
+            <img
+              src="https://images.unsplash.com/photo-1556229010-6c3f2c9ca5f8?auto=format&fit=crop&w=700&q=85"
+              width="700"
+              height="265"
+              alt="Gentle Face Cleanser bottle for daily face washing"
+              loading="lazy"
+            >
+          </a>
+
+          <div class="product-info">
+            <p class="product-category">CLEANSING</p>
+            <h3>
+              <a href="gentle-face-cleanser.html">
+                Gentle Face Cleanser
+              </a>
+            </h3>
+            <p class="product-description">
+              A gentle daily face wash, the simple first step of your skincare routine.
+            </p>
+
+            <div class="product-bottom">
+              <span class="product-price">Rs. 850</span>
+
+              <button
+                class="button button-small button-primary"
+                type="button"
+                data-add-to-cart
+                data-id="cleanser"
+                data-name="Gentle Face Cleanser"
+                data-price="850"
+                data-image="https://images.unsplash.com/photo-1556229010-6c3f2c9ca5f8?auto=format&fit=crop&w=300&q=80"
+              >
+                Add to Cart
+              </button>
+            </div>
+
+            <a class="product-details-link" href="gentle-face-cleanser.html">
+              View Gentle Face Cleanser details →
+            </a>
+          </div>
+        </article>
+
+        <!-- Product 2 -->
+        <article class="product-card" data-product-card>
+          <a
+            class="product-image"
+            href="daily-hydration-cream.html"
+            aria-label="View Daily Hydration Cream"
+          >
+            <span class="product-tag">DAILY MOISTURE</span>
+            <img
+              src="https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?auto=format&fit=crop&w=700&q=85"
+              width="700"
+              height="265"
+              alt="Daily Hydration Cream jar and bottle for everyday moisturising"
+              loading="lazy"
+            >
+          </a>
+
+          <div class="product-info">
+            <p class="product-category">MOISTURISING</p>
+            <h3>
+              <a href="daily-hydration-cream.html">
+                Daily Hydration Cream
+              </a>
+            </h3>
+            <p class="product-description">
+              A light moisturising cream for everyday hydration, morning or night.
+            </p>
+
+            <div class="product-bottom">
+              <span class="product-price">Rs. 1,200</span>
+
+              <button
+                class="button button-small button-primary"
+                type="button"
+                data-add-to-cart
+                data-id="cream"
+                data-name="Daily Hydration Cream"
+                data-price="1200"
+                data-image="https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?auto=format&fit=crop&w=300&q=80"
+              >
+                Add to Cart
+              </button>
+            </div>
+
+            <a class="product-details-link" href="daily-hydration-cream.html">
+              View Daily Hydration Cream details →
+            </a>
+          </div>
+        </article>
+
+        <!-- Product 3 -->
+        <article class="product-card" data-product-card>
+          <a
+            class="product-image"
+            href="daily-sunscreen.html"
+            aria-label="View Daily Sunscreen"
+          >
+            <span class="product-tag">DAILY SUN CARE</span>
+            <img
+              src="https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=700&q=85"
+              width="700"
+              height="265"
+              alt="Daily Sunscreen tube for everyday sun protection"
+              loading="lazy"
+            >
+          </a>
+
+          <div class="product-info">
+            <p class="product-category">SUN CARE</p>
+            <h3>
+              <a href="daily-sunscreen.html">
+                Daily Sunscreen
+              </a>
+            </h3>
+            <p class="product-description">
+              A sunscreen for daily face protection, made to fit easily into your morning routine.
+            </p>
+
+            <div class="product-bottom">
+              <span class="product-price">Rs. 1,450</span>
+
+              <button
+                class="button button-small button-primary"
+                type="button"
+                data-add-to-cart
+                data-id="sunscreen"
+                data-name="Daily Sunscreen"
+                data-price="1450"
+                data-image="https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=300&q=80"
+              >
+                Add to Cart
+              </button>
+            </div>
+
+            <a class="product-details-link" href="daily-sunscreen.html">
+              View Daily Sunscreen details →
+            </a>
+          </div>
+        </article>
+      </div>
+
+      <div class="shop-more">
+        <a class="button button-secondary" href="cart.html">
+          View Your Cart
+        </a>
+      </div>
+    </section>
+
+    <!-- About section -->
+    <section class="section about-section" id="about">
+      <div class="about-content">
+        <div class="about-image">
+          <img
+            src="https://images.unsplash.com/photo-1601049541289-9b1b7bbbfe19?auto=format&fit=crop&w=900&q=85"
+            width="900"
+            height="390"
+            alt="Skincare and beauty products arranged on a shelf in a minimal setting"
+            loading="lazy"
+          >
+        </div>
+
+        <div class="about-copy">
+          <p class="eyebrow">A LITTLE ABOUT US</p>
+          <h2>Beauty in the Everyday</h2>
+
+          <p>
+            GlowNest is a fictional skincare store concept built to
+            demonstrate website design and local SEO for a beauty
+            business in Pakistan.
+          </p>
+
+          <p>
+            Our concept celebrates a simple idea: self-care doesn't
+            need to be complicated. A thoughtful routine can be a
+            lovely part of your day.
+          </p>
+
+          <a class="button button-primary" href="index.html#shop">
+            Find Your Essentials
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Demo store note -->
+    <section class="section demo-note-section">
+      <div class="demo-note">
+        <strong>A note about this practice store</strong>
+        <p>
+          GlowNest is a fictional e-commerce demonstration. Products,
+          prices, cart, and checkout are for practice only. No real
+          orders, payments, or deliveries are processed.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="footer-content">
+      <a class="brand footer-brand" href="index.html">
+        <span class="brand-mark" aria-hidden="true">G</span>
+        <span>GlowNest</span>
+      </a>
+
+      <p>Simple skincare. Everyday confidence.</p>
+
+      <div class="footer-links">
+        <a href="index.html#shop">Shop</a>
+        <a href="index.html#about">About</a>
+        <a href="cart.html">Cart</a>
+      </div>
+
+      <p class="footer-small">
+        © 2026 GlowNest. A fictional practice store created for learning.
+      </p>
+    </div>
+  </footer>
+</body>
+</html>
